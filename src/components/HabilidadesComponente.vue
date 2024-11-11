@@ -31,13 +31,13 @@ const habilidades = ref([
             { id: 1, nombre: 'JavaScript', nivel: 'Avanzado', icono: img1 },
             { id: 2, nombre: 'Python', nivel: 'Intermedio', icono: img2 },
             { id: 3, nombre: 'HTML/CSS', nivel: 'Avanzado', icono: img3 },
-            { id: 4, nombre: 'Java', nivel: 'Intermedio', icono: img4 },
+            { id: 4, nombre: 'Java', nivel: 'Principiante', icono: img4 },
             { id: 5, nombre: 'SQL', nivel: 'Intermedio', icono: img5 }
         ]
     },
     {
         id: 2, nombre: 'Frameworks y Librerías', habilidades: [
-            { id: 1, nombre: 'React.js', nivel: 'Avanzado', icono: img6 },
+            { id: 1, nombre: 'React.js', nivel: 'Intermedio', icono: img6 },
             { id: 2, nombre: 'Vue.js', nivel: 'Intermedio', icono: img7 },
             { id: 3, nombre: 'Node.js', nivel: 'Avanzado', icono: img8 },
             { id: 4, nombre: 'Django', nivel: 'Intermedio', icono: img9 },
@@ -63,7 +63,7 @@ const habilidades = ref([
     {
         id: 5, nombre: 'Idiomas', habilidades: [
             { id: 1, nombre: 'Español', nivel: 'Nativo', icono: img19 },
-            { id: 2, nombre: 'Inglés', nivel: 'Avanzado (C1)', icono: img20 }
+            { id: 2, nombre: 'Inglés', nivel: 'Intermedio (B1)', icono: img20 }
         ]
     }
 ]);

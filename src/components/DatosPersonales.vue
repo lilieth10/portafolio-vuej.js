@@ -4,17 +4,17 @@ import instagram from '/src/assets/instagram_icon.svg';
 import github from '/src/assets/github_icon.svg';
 import cv from '/src/assets/cv_resume_icon.svg';
 
-const title = 'Juan Perez';
-const descripcion = 'Técnico Universitario en Programación - UTN';
+const title = 'Lilieth Chacon';
+const descripcion = 'Estudiante de la Técnicatura Universitaria en Programación - UTN';
 const residencia = 'San Rafael, Mendoza, Argentina';
-const presentacion = 'Hola, Bienvenido a mi portafolio de proyectos. Soy un desarrollador web con experiencia en el desarrollo de aplicaciones web y móviles.';
+const presentacion = 'Hola, Bienvenido a mi portafolio de proyectos. Soy una desarrolladora web con experiencia en el desarrollo de aplicaciones web y móviles.';
 const redesSociales = [
-  { id: 1, name: 'linkedin', src: linkedin, url: 'https://www.linkedin.com/in/jose-perez/' },
-  { id: 2, name: 'Instagram', src: instagram, url: 'https://www.instagram.com/joseperez/' },
-  { id: 3, name: 'github', src: github, url: '' },
+  { id: 1, name: 'linkedin', src: linkedin, url: 'https://www.linkedin.com/in/lilieth-chac%C3%B3n-27aa62205/' },
+  { id: 2, name: 'Instagram', src: instagram, url: 'https://www.instagram.com/liliethk/' },
+  { id: 3, name: 'github', src: github, url: 'https://github.com/lilieth10' },
   { id: 4, name: 'curriculum', src: cv, url: '' },
 ];
-const telefono = '+54 9 2604-474849';
+const telefono = '+54 9 1137596135';
 </script>
 
 <template>

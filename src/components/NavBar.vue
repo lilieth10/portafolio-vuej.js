@@ -21,13 +21,12 @@ const navegacion= ref([
 </script>
 
 <style scoped>
-.navbar {
-    background-color: var(--vt-c-indigo); /* Establece el color de fondo usando una variable CSS */
-    color: #fff; /* Establece el color del texto en blanco */
-    padding: 0.5rem 1rem; /* Añade un padding de 0.5rem arriba y abajo, y 1rem a los lados */
-    align-items: center; /* Centra verticalmente los elementos dentro de la navbar */
+.navbar {  
+    background: linear-gradient(135deg, rgba(255, 105, 180, 1) 0%, rgba(138, 43, 226, 1) 100%); /* Gradiente de rosa a lila */  
+    color: #fff; /* Establece el color del texto en blanco */  
+    padding: 0.5rem 1rem; /* Añade un padding de 0.5rem arriba y abajo, y 1rem a los lados */  
+    align-items: center; /* Centra verticalmente los elementos dentro de la navbar */  
 }
-
 .navbar-item {
     color: #fff; /* Establece el color del texto en blanco */
     text-decoration: none; /* Elimina el subrayado de los enlaces */
@@ -45,7 +44,7 @@ const navegacion= ref([
 
 a {
     border: 1px solid; /* Añade un borde sólido de 1px */
-    border-color: hsla(160, 100%, 37%, 0.2); /* Define el color del borde usando hsla */
+    border-color: hsla(313, 55%, 64%, 0.2); /* Define el color del borde usando hsla */
     border-radius: 5px; /* Redondea las esquinas del borde */
     text-decoration: none; /* Elimina el subrayado de los enlaces */
     transition: 0.4s; /* Añade una transición suave de 0.4s para los cambios de estilo */

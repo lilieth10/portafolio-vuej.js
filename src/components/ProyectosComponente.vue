@@ -1,8 +1,7 @@
 <script setup>
-import proyecto1 from '/src/assets/restaurant.png';
-import proyecto2 from '/src/assets/e-learning.png';
-import proyecto3 from '/src/assets/blog.png';
-import proyecto4 from '/src/assets/restaurant.png';
+import proyecto1 from '/src/assets/novelyBook.png';
+import proyecto2 from '/src/assets/healthMatters.png';
+import proyecto3 from '/src/assets/pokedex.png';
 
 // Este componente muestra una galería de proyectos con información sobre cada proyecto
 import { ref } from 'vue';
@@ -14,35 +13,28 @@ misProyectos.value = ([
     {
         id: 1,
         src: proyecto1,
-        titulo: "Aplicación de Reservas para Restaurantes (2023)",
-        descripcion: "Creé una aplicación móvil con Flutter que permite a los usuarios reservar mesas en restaurantes locales",
-        projectoLink: "https://www.google.com.ar",
-        githubLink: "https://github.com/usuario/proyecto"
+        titulo: "Novely Book",
+        descripcion: "Este proyecto representa uno de mis primeros emprendimientos grupales bajo la metodología Scrum, donde diseñamos y desarrollamos una plataforma de e-commerce dedicada a la compra y venta de libros. Utilizando Next.js, creamos una aplicación web ágil y responsiva que permite a los usuarios explorar un amplio catálogo de libros, realizar compras de manera sencilla y disfrutar de una experiencia de usuario optimizada.",
+        projectoLink: "https://novelty-books.vercel.app/",
+        githubLink: "https://github.com/lilieth10/PFFront"
     },
     {
         id: 2,
         src: proyecto2,
-        titulo: "Plataforma de E-learning (2022)",
-        descripcion: "Diseñé y desarrollé una plataforma de educación en línea utilizando Django y React. Con diferentes funcionalidades",
-        projectoLink: "https://www.google.com.ar",
-        githubLink: "https://github.com/usuario/proyecto"
+        titulo: "Health Matters",
+        descripcion: "Health Matters es una plataforma web innovadora diseñada para facilitar la consulta y gestión de turnos médicos, tanto a domicilio como en consultorios. Utilizando Next.js,.",
+        projectoLink: "https://health-matters.vercel.app/",
+        githubLink: "https://github.com/lilieth10/HealthMatters"
     },
     {
         id: 3,
         src: proyecto3,
-        titulo: "Blog Personal con CMS (2022)",
-        descripcion: "Construí un blog personal con un sistema de gestión de contenidos (CMS) personalizado en WordPress.",
-        projectoLink: "https://www.google.com.ar",
-        githubLink: "https://github.com/usuario/proyecto"
+        titulo: "Pokedex",
+        descripcion: "Este proyecto es una aplicación web interactiva que muestra una base de datos de Pokémon, permitiendo a los usuarios buscar y explorar diferentes especies. Fue desarrollado completamente en JavaScript, y se implementaron pruebas automatizadas utilizando Cypress para pruebas end-to-end y Jest para pruebas unitarias, asegurando la estabilidad y funcionalidad de la aplicación.",
+        projectoLink: "https://pokedex-khaki-theta.vercel.app/",
+        githubLink: "https://github.com/lilieth10/pokedex"
     },
-    {
-        id: 4,
-        src: proyecto4,
-        titulo: "Aplicación de Reservas para Restaurantes (2023)",
-        descripcion: "Creé una aplicación móvil con Flutter que permite a los usuarios reservar mesas en restaurantes locales",
-        projectoLink: "https://www.google.com.ar",
-        githubLink: "https://github.com/usuario/proyecto"
-    },
+
 ])
 
 </script>
